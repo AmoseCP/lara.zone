@@ -11,7 +11,7 @@ export default async function Header() {
               <div className="flex">
                 <div className="flex flex-col justify-center items-center cursor-pointer space-y-3" >
                   <div className="font-medium text-lg p-1.5 rounded dark:border-white dark:text-white menu-link transform duration-200">
-                    NotionNext BLOG
+                    Lara Zone
                   </div>
                 </div>
               </div>
@@ -20,26 +20,26 @@ export default async function Header() {
                   <nav id="nav-mobile" className="leading-8 justify-center font-light w-full flex">
                     <div>
                       <a target="_self" className=" menu-link pl-2 pr-4 no-underline tracking-widest pb-1" href="/">
-                        <i className="fa-solid fa-house"></i>Home
+                        <i className="fa-solid fa-house"></i>首页
                       </a>
                     </div>
                     <div>
                       <a target="_self" className=" menu-link pl-2 pr-4 no-underline tracking-widest pb-1" href="/search">
-                        <i className="fas fa-search"></i>Search
+                        <i className="fas fa-search"></i>Lara
                       </a>
                     </div>
                     <div>
-                      <a target="_self" className=" menu-link pl-2 pr-4 no-underline tracking-widest pb-1" href="/archive">
-                        <i className="fas fa-archive"></i>Archive
+                      <a target="_self" className=" menu-link pl-2 pr-4 no-underline tracking-widest pb-1" href="/about">
+                        <i className="fas fa-archive"></i>关于本站
                       </a>
                     </div>
                     <div>
                       <a target="_self" className=" menu-link pl-2 pr-4 no-underline tracking-widest pb-1" href="/links">
-                        <i className="fas fa-link"></i>友链
+                        <i className="fas fa-link"></i>友情链接
                       </a>
                     </div>
                     <div>
-                      <a target="_blank" className=" menu-link pl-2 pr-4 no-underline tracking-widest pb-1" href="https://github.com/tangly1024/NotionNext">
+                      <a target="_blank" className=" menu-link pl-2 pr-4 no-underline tracking-widest pb-1" href="https://github.com/AmoseCP/lara.zone">
                         <i className="fab fa-github"></i>Github
                       </a>
                     </div>
