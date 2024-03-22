@@ -24,7 +24,7 @@ export default async function Header() {
                       </a>
                     </div>
                     <div>
-                      <a target="_self" className=" menu-link pl-2 pr-4 no-underline tracking-widest pb-1" href="/search">
+                      <a target="_self" className=" menu-link pl-2 pr-4 no-underline tracking-widest pb-1" href="/lara">
                         <i className="fas fa-search"></i>Lara
                       </a>
                     </div>
