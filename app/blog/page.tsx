@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Blog() {
   return(
@@ -55,7 +56,7 @@ export default function Blog() {
                      <div id="side-bar">
                         <div className="h-52 w-full flex justify-center">
                            <div>
-                              <div className="justify-center items-center flex hover:rotate-45 py-6 hover:scale-105 dark:text-gray-100  transform duration-200 cursor-pointer"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Tangly" width="80" className="rounded-full"/></div>
+                              <div className="justify-center items-center flex hover:rotate-45 py-6 hover:scale-105 dark:text-gray-100  transform duration-200 cursor-pointer"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Tangly" width="80" className="rounded-full"/></div>
                               <nav id="nav" className="leading-8 flex justify-center  dark:text-gray-200 w-full">
                                  <a title="/archive" target="_self" className="py-1.5 my-1 px-2 duration-300 text-base justify-center items-center cursor-pointer" href="/archive">
                                     <div className="w-full items-center justify-center hover:scale-105 duration-200 transform dark:hover:text-indigo-400 hover:text-indigo-600">
@@ -108,7 +109,7 @@ export default function Blog() {
                         <i className="opacity-70 animate-bounce fas fa-angle-down"></i>
                      </div>
                   </div>
-                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" id="header-cover" className="header-cover w-full h-screen object-cover object-center "/>
+                  <Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" id="header-cover" className="header-cover w-full h-screen object-cover object-center " width={60} height={60} alt="image"/>
                </header>
             </div>
             <main id="wrapper" className=" bg-hexo-background-gray dark:bg-black w-full py-8 md:px-8 lg:px-24 min-h-screen relative">
@@ -153,7 +154,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -198,7 +199,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -236,7 +237,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -274,7 +275,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -312,7 +313,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -350,7 +351,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -388,7 +389,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -429,7 +430,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -467,7 +468,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -505,7 +506,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -543,7 +544,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                                  <div className="">
@@ -565,7 +566,7 @@ export default function Blog() {
                                              </div>
                                           </div>
                                        </article>
-                                       <div className="md:w-5/12 overflow-hidden"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500"/></div>
+                                       <div className="md:w-5/12 overflow-hidden"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="h-56 w-full object-cover object-center group-hover:scale-110 duration-500" width={60} height={60} alt="image"/></div>
                                     </div>
                                  </div>
                               </div>
@@ -577,7 +578,7 @@ export default function Blog() {
                   <div id="sideRight" className="space-y-4 lg:w-80 pt-4 lg:pt-4">
                      <div className="space-y-4 lg:w-80 pt-4 lg:pt-4">
                         <section className="card shadow-md hover:shadow-md dark:text-gray-300 border dark:border-black rounded-xl lg:p-6 p-4 bg-white dark:bg-hexo-black-gray lg:duration-100">
-                           <div className="justify-center items-center flex py-6 dark:text-gray-100  transform duration-200 cursor-pointer"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Tangly" width="120" className="rounded-full"/></div>
+                           <div className="justify-center items-center flex py-6 dark:text-gray-100  transform duration-200 cursor-pointer"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Tangly" width="120" className="rounded-full" height={60}/></div>
                            <div className="font-medium text-center text-xl pb-4">Tangly</div>
                            <div className="text-sm text-center">一个普通的干饭人🍚</div>
                            <nav id="nav" className="leading-8 flex justify-center  dark:text-gray-200 w-full">
@@ -617,7 +618,7 @@ export default function Blog() {
                               <div><i className="mr-2 fas fas fa-history"></i>Latest posts</div>
                            </div>
                            <a title="模板说明" className="my-3 flex" href="/article/guide">
-                              <div className="w-20 h-14 overflow-hidden relative"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full"/></div>
+                              <div className="w-20 h-14 overflow-hidden relative"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full" width={60} height={60} alt="image"/></div>
                               <div className="dark:text-gray-400  text-sm overflow-x-hidden hover:text-indigo-600 px-2 duration-200 w-full rounded  hover:text-indigo-400 cursor-pointer items-center flex">
                                  <div>
                                     <div className="line-clamp-2 menu-link">模板说明</div>
@@ -626,7 +627,7 @@ export default function Blog() {
                               </div>
                            </a>
                            <a title="示例文章" className="my-3 flex" href="/article/example-1">
-                              <div className="w-20 h-14 overflow-hidden relative"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full"/></div>
+                              <div className="w-20 h-14 overflow-hidden relative"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full" width={60} height={60} alt="image"/></div>
                               <div className="dark:text-gray-400  text-sm overflow-x-hidden hover:text-indigo-600 px-2 duration-200 w-full rounded  hover:text-indigo-400 cursor-pointer items-center flex">
                                  <div>
                                     <div className="line-clamp-2 menu-link">示例文章</div>
@@ -635,7 +636,7 @@ export default function Blog() {
                               </div>
                            </a>
                            <a title="空白文章，标题注意不应该过长，否则影响显示效果，这是一个示范" className="my-3 flex" href="/article/example-10">
-                              <div className="w-20 h-14 overflow-hidden relative"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full"/></div>
+                              <div className="w-20 h-14 overflow-hidden relative"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full" width={60} height={60} alt="image"/></div>
                               <div className="dark:text-gray-400  text-sm overflow-x-hidden hover:text-indigo-600 px-2 duration-200 w-full rounded  hover:text-indigo-400 cursor-pointer items-center flex">
                                  <div>
                                     <div className="line-clamp-2 menu-link">空白文章，标题注意不应该过长，否则影响显示效果，这是一个示范</div>
@@ -644,7 +645,7 @@ export default function Blog() {
                               </div>
                            </a>
                            <a title="空白文章" className="my-3 flex" href="/article/example-9">
-                              <div className="w-20 h-14 overflow-hidden relative"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full"/></div>
+                              <div className="w-20 h-14 overflow-hidden relative"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full" width={60} height={60} alt="image"/></div>
                               <div className="dark:text-gray-400  text-sm overflow-x-hidden hover:text-indigo-600 px-2 duration-200 w-full rounded  hover:text-indigo-400 cursor-pointer items-center flex">
                                  <div>
                                     <div className="line-clamp-2 menu-link">空白文章</div>
@@ -653,7 +654,7 @@ export default function Blog() {
                               </div>
                            </a>
                            <a title="空白文章" className="my-3 flex" href="/article/example-8">
-                              <div className="w-20 h-14 overflow-hidden relative"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full"/></div>
+                              <div className="w-20 h-14 overflow-hidden relative"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full" width={60} height={60} alt="image"/></div>
                               <div className="dark:text-gray-400  text-sm overflow-x-hidden hover:text-indigo-600 px-2 duration-200 w-full rounded  hover:text-indigo-400 cursor-pointer items-center flex">
                                  <div>
                                     <div className="line-clamp-2 menu-link">空白文章</div>
@@ -662,7 +663,7 @@ export default function Blog() {
                               </div>
                            </a>
                            <a title="空白文章" className="my-3 flex" href="/article/example-7">
-                              <div className="w-20 h-14 overflow-hidden relative"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full"/></div>
+                              <div className="w-20 h-14 overflow-hidden relative"><Image src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" className="object-cover w-full h-full" width={60} height={60} alt="image"/></div>
                               <div className="dark:text-gray-400  text-sm overflow-x-hidden hover:text-indigo-600 px-2 duration-200 w-full rounded  hover:text-indigo-400 cursor-pointer items-center flex">
                                  <div>
                                     <div className="line-clamp-2 menu-link">空白文章</div>
