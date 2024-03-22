@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Links() {
+export default function Link() {
   return (
     <div className="flex justify-center">
       <div >

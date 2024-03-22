@@ -10,7 +10,6 @@ export default function About() {
   return (
     <>
       <div className="space-y-9">
-        <h1 className="text-xl font-bold underline bg-indigo-100">Hello world!</h1>
         <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
           <div className="shrink-0">
             <Image 
