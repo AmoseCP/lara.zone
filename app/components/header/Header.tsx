@@ -6,10 +6,9 @@ export default async function Header() {
   return (
     <>
       <div className="ml-8 mr-8 bg-black py-1">
-       
         <div className="ml-8 mr-8">
           <div className="text-2xl text-purple-200 mt-2 h-0">
-            <span>Lara's Blog</span>
+            <span>Lara&apos; Blog</span>
           </div>
           <div className="flex justify-end space-x-8 font-sans text-white text-xl mb-2">
             <Link href={'/'} className="flex flex-row space-x-0">
